@@ -8,9 +8,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
-  background: transparent; /* IMPORTANT */
-}
-
+  background: transparent;
 }
 
 #background {
@@ -23,9 +21,6 @@ html, body {
   z-index: 0;
 }
 
-
-
-
 .overlay {
   position: relative;
   z-index: 1;
@@ -35,7 +30,6 @@ html, body {
   align-items: center;
   background: rgba(0, 0, 0, 0.35);
 }
-
 
 .content {
   background: rgba(255, 255, 255, 0.85);
@@ -78,7 +72,5 @@ button:hover {
     transform: translateY(0);
   }
 }
-
-
 
 
