@@ -26,11 +26,12 @@ function setSuggestion() {
 
   const imageUrl = `https://picsum.photos/1920/1080?seed=${Math.floor(Math.random() * 10000)}`;
 
-
   background.style.backgroundImage = `url(${imageUrl})`;
+
 }
 
 button.addEventListener("click", setSuggestion);
 setSuggestion();
+
 
 
