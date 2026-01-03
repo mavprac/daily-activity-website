@@ -24,9 +24,11 @@ function setSuggestion() {
 
   activityText.textContent = activity.text;
 
-  const imageUrl = `https://source.unsplash.com/1600x900/?${activity.keyword}`;
+  const imageUrl = `https://picsum.photos/1920/1080?random=${Date.now()}`;
+
   background.style.backgroundImage = `url('${imageUrl}')`;
 }
 
 button.addEventListener("click", setSuggestion);
 setSuggestion();
+
