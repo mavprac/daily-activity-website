@@ -24,11 +24,13 @@ function setSuggestion() {
 
   activityText.textContent = activity.text;
 
-  const imageUrl = `https://picsum.photos/1920/1080?random=${Date.now()}`;
+  const imageUrl = `https://picsum.photos/1920/1080?seed=${Math.floor(Math.random() * 10000)}`;
 
-  background.style.backgroundImage = `url('${imageUrl}')`;
+
+  background.style.backgroundImage = `url(${imageUrl})`;
 }
 
 button.addEventListener("click", setSuggestion);
 setSuggestion();
+
 
