@@ -6,7 +6,11 @@
 
 html, body {
   height: 100%;
+  margin: 0;
   font-family: Arial, sans-serif;
+  background: transparent; /* IMPORTANT */
+}
+
 }
 
 #background {
@@ -70,3 +74,4 @@ button:hover {
     transform: translateY(0);
   }
 }
+
